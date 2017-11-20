@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<html>
+<head>
+	<title>JavaScript Calculator</title>
+</head>
+<body>
+		<div class="calculator">
+		<div class="top">
+			<div class="screen">
+			<span id="expression">0</span>
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="row">
+				<button class="btn" id="clear">AC</button>
+				<button class="btn" id="backspace"><i class="material-icons">backspace</i></button>
+				<button class="btn" id="percent">%</button>
+				<button class="btn char">÷</button>
+			</div>
+			<div class="row">
+				<span class="btn char">7</span>
+				<button class="btn char">8</button>
+				<button class="btn char">9</button>
+				<button class="btn char">x</button>
+			</div>
+			<div class="row">
+				<button class="btn char">4</button>
+				<button class="btn char">5</button>
+				<button class="btn char">6</button>
+				<button class="btn char">-</button>
+			</div>
+
+			<div class="row">
+				<button class="btn char">1</button>
+				<button class="btn char">2</button>
+				<button class="btn char">3</button>
+				<button class="btn char tall">+</button>
+			</div>
+			<div class="row last">
+				<button class="btn char">0</button>
+				<button class="btn" id="dot">.</button>
+				<button class="btn" id="result">=</button>
+			</div>
+		</div>
+		</div>
+</body>
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src="js/index.js"></script>
+</html>
